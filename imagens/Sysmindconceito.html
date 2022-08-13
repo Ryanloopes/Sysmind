@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="imagens/logo01.png">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/afbfef3941.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Sysmind</title>
+</head>
+<body onload="IniciaSlider()"> 
+    <!-- topo do site -->
+    <div class="wrapper">
+        <header id="home">
+            <nav>
+                <div class="logo">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#missao">Missão</a></li>
+                        <li><a href="#visao">Visão</a></li>
+                        <li><a href="#valores">Valores</a></li>
+                        <li><a href="#equipe">Equipe</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li> <a class="linkdisable" href="#port">Portfólio</a></li>
+                    </ul>
+                </div> 
+            </nav>
+
+            <div class="banner">
+                <div style="text-align: center;">
+                <h1 class="bannertitulo">Sysmind</h1>
+                <p class="bannersubtitulo"> <span style="color: darkorange;">toc toc!</span> Soluções na sua porta!</p>
+                </div>
+            </div>
+
+        </header>
+        
+    </div>
+
+    <script type="text/javascript"> 
+    //js para nav bar
+  
+        window.addEventListener("scroll", function(){
+        var header = document.querySelector("nav");
+        header.classList.toggle("sticky", window.scrollY > 0);
+
+           
+    })
+    //js para logo
+        window.addEventListener("scroll", function(){
+        var logo = document.querySelector(".logo");
+        logo.classList.toggle("sticky", window.scrollY > 0);
+    })
+    
+    </script>
+ <!-- fim topo do site -->
+
+<!-- inicio missao, visao e valores -->
+<!-- missao -->
+<section id="missao" class="section-missao" >
+    <div class="container">
+        <div class="sec row-cols-2">
+            <div class="sec-titulo">
+                <img src="imagens//titMissao.png">   
+            </div>
+            <div class="sec-descricao">
+                <h1 style="color: darkorange;text-shadow: 0 0 black;">Missão</h1>
+                <p>
+                Ser o mais flexível possível, para fornecer
+                o melhor e o mais adequado
+                software de acordo com o perfil de
+                cada um de nossos clientes, assim
+                cumprindo com suas necessidades e exigências
+                </p>
+            </div>
+        </div>
+    </div>
+</section> 
+<!-- fim missao -->
+<!-- começo visao -->
+<section id="visao" class="section-visao">
+    <div class="container">
+        <div class="sec row-cols-2">
+            <div class="sec-descricao">
+                <h1 style="color: #0102f5;text-shadow: 0 0 black;">Visão</h1>
+                <p>
+                    ficar entre as melhores desenvolvedoras
+                    de softwares, trazendo e espalhando
+                    os mais diversos programas com uma cara 
+                    única para todo o mundo!
+                </p>
+            </div>
+            <div class="sec-titulo">
+                <img src="imagens//visao.jpg">   
+            </div>
+        </div>
+    </div>
+</section>
+<!-- fim visao -->
+<!-- valores -->
+<section id="valores" class="section-valores">
+
+    <div class="container">
+        <div class="sec row-cols-2">
+            <div class="sec-titulo">
+                <img src="imagens//titvalores.png">   
+            </div>
+            <div class="sec-descricao">
+                <h1 style="color: darkorange;text-shadow: 0 0 black;">Valores</h1>
+                <p>
+                    Foco no cliente, ética, credibilidade, confiança,
+                    inovação, compreensão,
+                    responsabilidade, integridade e colaboração.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</section> 
+<!-- fim valores -->
+
+<!-- Equipe -->
+<section id="equipe" class="section-equipe">
+        <div style="margin: auto;">
+            <div class="row">
+                <div class="card" style="width: 15rem;"><!-- rayane -->
+                    <img class="card-img-top" src="equipe/t2.jpg" height="65%">
+                    <div class="card-body">
+                    <p class="card-text">O meu nome é Rayane Assis de Almeida, tenho 17 anos e atualment</p>
+                    </div>
+                </div>
+                
+                <div class="card" style="width: 15rem;"><!-- renan -->
+                    <img class="card-img-top" src="equipe/t3.jpg" height="65%">
+                    <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 15rem;"><!-- ryan -->
+                    <img class="card-img-top" src="equipe/t4.jpg" height="65%">
+                    <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 15rem;"><!-- stephany -->
+                    <img class="card-img-top" src="equipe/t5.jpg" height="65%">
+                    <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 15rem;"> <!-- wallace -->
+                    <img class="card-img-top" src="equipe/t6.jpg" height="65%">
+                    <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- fim equipe -->
+<!-- contato -->
+<section id="contato" class="section-local">
+    <div class="container">
+        <div class="form">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-12 formdiv">
+                <h2>Formulario para contato</h2>
+                <hr>
+                <form class="row g-3 ">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label" style="margin-bottom: 0px;">Nome</label>
+                      <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label" style="margin-bottom: 0px;">Email</label>
+                      <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label" style="margin-bottom: 0px;">Comente!</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block" style="margin: 0%;">
+                        <button class="btn btn-primary" type="submit" >Enviar</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-sm-12 formdiv">
+                <h2>endereço para contato</h2>
+                <hr>
+                <div class="single-contact">
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <p style="margin-left: 10px;">AV.Brasil - SP</p>
+                </div>
+                <div class="single-contact">
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <p style="margin-left: 10px;">sysmind3@gmail.com</p>
+                </div>
+                <div class="single-contact">
+                    <div>
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <p style="margin-left: 10px;">+ (00) 123 456 789</p>
+
+                    <P style="margin-left: 10px;">+ (00) 123 344 789</p>
+                </div>
+               
+            </div>
+            <div class="col-md-12 mapa">
+                <div class="container mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14634.101945787146!2d-46.3435453!3d-23.5135951!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x54f4214e9220a7f2!2zRVRFQyBQb8Oh!5e0!3m2!1spt-BR!2sbr!4v1633883670932!5m2!1spt-BR!2sbr" width="100%" height="450" allowfullscreen="" loading="lazy" class="formdiv mapa"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+<!-- fim contato -->
+<!-- Footer -->
+
+<footer class="bg-light text-center text-lg-start" style="font-family: 'Font Awesome 5 Pro';font-size: 13px;">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h1 class="text-uppercase">Sysmind</h1>
+
+          <p>
+           Sysmind e uma empresa criada apartir de um projeto de PTCC, no qual todos os envolvidos 
+           colocaram em pratica seu conhecimento adquirido na instituição de ensino ETEC De Poá e Centro Paula Souza
+           no curso: Desenvolvimento de sistemas.<br>
+
+            Essa atividade e uma devolutiva para as materia de PTCC e Programção Web II.  
+          </p>
+        </div>
+
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h6 class="text-uppercase">Email:</h6>
+  
+          <p>
+            <!-- rayane -->
+            <a href="mailto:rayaneassis1709@gmail.com?subject=Hello%20again">
+                rayaneassis1709@gmail.com</a> - layout/Desing <br>
+            <!-- renan -->
+            <a href="mailto:renan.santos413@etec.sp.gov.br?subject=Hello%20again">
+                renan.santos413@etec.sp.gov.br </a> Analise/Pré-Documentação<br>
+            <!-- ryan -->
+            <a href="mailto:ryanloopes25@gmail.com?subject=Hello%20again">
+                ryanloopes25@gmail.com </a> - HTML/CSS/JAVA SCRIPT <br>
+            <!-- stephany -->
+            <a href="mailto:stephanycassu2005@gmail.com?subject=Hello%20again">
+                stephanycassu2005@gmail.com</a> - Documentação<br>
+            <!-- wallace -->
+            <a href="mailto:wallacesousat@gmail.com?subject=Hello%20again">
+                wallacesousat@gmail.com</a> - Documentação <br>
+          </p>
+        </div>
+     
+      </div>
+    </div>
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a href="Index.html">Sysmind.com</a>
+    </div>
+  </footer>
+<!-- fim Footer -->
+
+
+</body>
+</html>
